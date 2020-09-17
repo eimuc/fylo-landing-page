@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+    .header {
+        display: inline-block;
+        width: 100%;
+    }
+    .main {
+        display: inline-block;
+        width: 100%;
+    }
