@@ -5,7 +5,50 @@ body {
         display: inline-block;
         width: 100%;
     }
-    .main {
+        .logo {
+            display: inline-block;
+            float: left;
+
+        }
+        .header-a-div {
+            display: inline-block;
+            float: right;
+
+        }
+            .header-a {
+
+            }
+    .container1 {
         display: inline-block;
         width: 100%;
+    }
+        .left-column {
+            display: inline-block;
+            width: 45%;
+        }
+        .right-column {
+            display: inline-block;
+            width: 45%;
+        }
+            .img {
+                display: inline-block;
+                width: 400px;
+            }
+    .container2 {
+        display: inline-block;
+        width: 100%;
+        background-image: url(./images/bg-curve-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+    .up-footer {
+        display: inline-block;
+        width: 100%;
+        background-color: #575989;
+    }
+    .footer {
+        display: inline-block;
+        width: 100%;
+        background-color: #07043B;
     }
