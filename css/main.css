@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+}
+    .header {
+        display: inline-block;
+        width: 100%;
+        margin-top: 60px;
+    }
+        .logo {
+            display: inline-block;
+            float: left;
+            margin-left: 50px;
+
+        }
+        .header-a-div {
+            display: inline-block;
+            float: right;
+            margin-right: 50px;
+            text-decoration: none;
+        }
+            .header-a {
+                text-decoration: none;
+                color: #1E1D2B;
+                margin-right: 30px;
+
+            }
+    .container1 {
+        display: inline-block;
+        width: 100%;
+        margin-top: 60px;
+    }
+        .left-column {
+            display: inline-block;
+            width: 45%;
+            margin-left: 50px;
+            margin-top: 150px;
+        }
+            .left-column > h1 {
+                width: 450px;
+                padding-bottom: 15px;
+                color: #0A0839;
+            }
+            .left-column > p {
+                width: 450px;
+                padding-bottom: 15px;
+                color: #0A0839;
+            }
+            input {
+                display: inline-block;
+                width: 40%;
+                height: 35px;
+                float: left;
+                padding-left: 10px;
+            }
+            .button {
+                display: inline-block;
+                width: 30%;
+                height: 35px;
+                line-height: 31px;
+                float: left;
+                text-align: center;
+                background-color: #2F65F9;
+                color: white;
+                margin-left: 20px;
+                text-decoration: none;
+                border: 1px solid #2F65F9;
+                border-radius: 3px;
+            }
+        .right-column {
+            display: inline-block;
+            width: 45%;
+            margin-right: 50px;
+        }
+            .img {
+                display: inline-block;
+                width: 100%;
+            }
+    .container2 {
+        display: inline-block;
+        width: 100%;
+        background-image: url(../images/bg-curve-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 150px;
+    }
+        .container2 > .left-column {
+            margin-top: 200px;
+
+        }
+            .container2 > .left-column > h1 {
+                width: 500px;
+            }
+            .container2 > .left-column > a {
+                color: green;
+            }
+        .container2 > .right-column > img {
+            margin-top: 200px;
+        }
+    .up-footer {
+        display: inline-block;
+        width: 100%;
+        background-color: #575989;
+    }
+    .footer {
+        display: inline-block;
+        width: 100%;
+        background-color: #07043B;
+    }
