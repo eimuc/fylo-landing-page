@@ -78,6 +78,7 @@ body {
     .container2 {
         display: inline-block;
         width: 100%;
+        height: 800px;
         background-image: url(../images/bg-curve-desktop.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -92,18 +93,104 @@ body {
                 width: 500px;
             }
             .container2 > .left-column > a {
-                color: green;
+                color: #3B9685;
+                text-decoration: none;
+                border-bottom: 1px solid #3B9685;
             }
+            .review-box {
+                width: 320px;
+                background-color: white;
+                margin-top: 40px;
+                padding: 40px;
+                box-shadow: 0 0 1rem rgba(0,0,0,.6);
+            }
+                .quates, .review-box > p {
+                padding-bottom: 10px;
+                }
+                .review-box > img:last-of-type {
+                    display: inline-block;
+                    width: 40px;
+                    border-radius: 50%;
+                }
+                .user {
+                    display: inline-block;
+                }
+
         .container2 > .right-column > img {
             margin-top: 200px;
         }
     .up-footer {
         display: inline-block;
         width: 100%;
+        height: 250px;
         background-color: #575989;
     }
+        .up-footer > .left-column, .up-footer > .right-column {
+            margin-top: 80px;
+        }
+        .up-footer input {
+            width: 80%;
+        }
+        .up-footer .button {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .up-footer h2 {
+            padding-bottom: 10px;
+            color: white;
+            font-size: 30px;
+        }
+        .up-footer p {
+            color: white;
+        }
     .footer {
         display: inline-block;
         width: 100%;
         background-color: #07043B;
     }
+        .logodiv {
+            display: inline-block;
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 10px;
+        }
+            .footer .logo {
+
+            }
+        .contacts {
+            display: inline-block;
+            float: left;
+            width: 350px;
+            margin-left: 50px;
+        }
+            .contacts p {
+            color: white;
+            padding-bottom: 10px;
+            }
+        .footerlinks1 {
+            display: inline-block;
+            float: left;
+            width: 350px;
+        }
+            .footerlinks2 {
+            display: inline-block;
+            float: left;
+            width: 350px;
+        }
+            .footerlinks1 a, .footerlinks2 a {
+            display: inline-block;
+            width: 100%;
+            padding-bottom: 10px;
+            text-decoration: none;
+            color: white;
+            }
+        .socials {
+            display: inline-block;
+            width: 100px;
+        }
+            .socials a {
+                text-decoration: none;
+                color: white;
+                border: 1px solid white;
+                border-radius: 50%;
+            }
